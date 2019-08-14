@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>heartbeat-extension-for-magento</name>
+    <version>0.0.4</version>
+    <stability>stable</stability>
+    <license uri="http://instore.gorillagroup.com/license-agreement">Gorilla License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The HeartBeat module designed to provide in-depth monitoring for your Magento website. </summary>
+    <description>&lt;p&gt;The HeartBeat module designed to provide in-depth monitoring for your Magento site. There are two ways to monitor the status of your site &#x2013; via an XML report or through Pingdom.&lt;br /&gt;Pingdom is monitoring service that tracks all website &amp; server vitals in one convenient monitoring platform. It helps you spot performance trends, share data with others, and helps with issue resolution. Pingdom also sends users real-time updates via email, SMS (texts), Twitter, or mobile notification via iOS or Android devices.&lt;/p&gt;&lt;p&gt;The HeartBeat module monitors seven components that are vital for site functionality and performance of any Magento website. These tests include: API availability, database, flat table, logs, catalog, file system, and indexes.&lt;/p&gt;</description>
+    <notes>Reworked tests structure,&#xD;
+Error management,&#xD;
+Add email notification feature,&#xD;
+Remove deprecated tests</notes>
+    <authors><author><name>Gorilla Team</name><user>briangrady</user><email>briangrady@gorillagroup.com</email></author></authors>
+    <date>2012-09-11</date>
+    <time>12:37:41</time>
+    <contents><target name="magelocal"><dir name="Gorilla"><dir name="Heartbeat"><dir name="Helper"><file name="Data.php" hash="e90a9d9d93dcbed32c7ab6b50ffceb03"/></dir><dir name="Model"><file name="Observer.php" hash="b12b640b75bdaea342f9bfb0e4ea9b86"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Schedule.php" hash="836c6dc6336bab755cc4ea1d28ad99a6"/><file name="Tests.php" hash="d5d6f576c9363e216bd2d7b9b84f988e"/></dir></dir></dir><dir name="Tests"><file name="Abstract.php" hash="3f2adb51043309db16913cf6974c0e43"/><file name="Api.php" hash="b5e05ceba40b4f11ae7a205718d0efce"/><file name="Catalog.php" hash="2bf00561c40928511288b34e32d5f958"/><file name="Database.php" hash="c3a80636fa827751dd1904dcf3bc9c83"/><file name="Filesystem.php" hash="e24bdf8e8bebd7c9c2fcae75d79bd5ec"/><file name="Flattable.php" hash="4135860b36e7a430eafeb2c515f35bb6"/><file name="Index.php" hash="41eda1da4d293487bf0becb33a248b0f"/><file name="Log.php" hash="c49403fa2505a6aaaa62c40f74686187"/></dir><file name="TestsCollector.php" hash="0733f25ae16643a39145910f8ee8a63a"/><file name="TestsInterface.php" hash="68b9b24f2b85732d6e0769ba11ffae2c"/></dir><dir name="controllers"><file name="IndexController.php" hash="3be2670585b1490d9443ce2e61f5d7b9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="818551d3d7ba1962d837eff1f85f0203"/><file name="config.xml" hash="00e6de371238530deb346b46a5fba22d"/><file name="system.xml" hash="72a254f644686b8d888bbc09a69056bf"/></dir><dir name="sql"><dir name="heartbeat_setup"><file name="mysql4-install-0.0.2.php" hash="d4dc069f68c14c3ac78db35ad916f5f3"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Gorilla_Heartbeat.xml" hash="73424503c8a3a95a747570ac3e05b4cb"/></dir></target><target name="mage"><dir name="app"><dir name="locale"><dir name="en_US"><dir name="template"><dir name="email"><file name="heartbeat_warnings.html" hash="50668b0f4a86bf4dc56e62f8b58dbe9f"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
