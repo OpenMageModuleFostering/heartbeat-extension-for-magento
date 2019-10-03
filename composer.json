@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/heartbeat-extension-for-magento",
+    "name": "openmage-module-fostering\/heartbeat-extension-for-magento",
     "type": "magento-module",
     "license": "Gorilla-License",
     "homepage": "",
