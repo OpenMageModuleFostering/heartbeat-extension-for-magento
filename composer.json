@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/heartbeat-extension-for-magento",
+    "name": "OpenMageModuleFostering\/heartbeat-extension-for-magento",
     "type": "magento-module",
     "license": "Gorilla-License",
     "homepage": "",
     "description": "The HeartBeat module designed to provide in-depth monitoring for your Magento website. ",
     "authors": [
-    {
-        "name": "Gorilla Team",
-        "email": "briangrady@gorillagroup.com"
-    }
-],
+        {
+            "name": "Gorilla Team",
+            "email": "briangrady@gorillagroup.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
